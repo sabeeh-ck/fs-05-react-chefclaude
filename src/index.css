@@ -60,3 +60,7 @@ form > button {
     border: none;
     border-radius: 0.375rem;
 }
+
+ul {
+    margin-left: 4rem;
+}
