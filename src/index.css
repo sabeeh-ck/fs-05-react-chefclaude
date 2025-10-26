@@ -8,8 +8,25 @@ img {
     display: block;
 }
 
+ul {
+    list-style: inside;
+}
+
+button {
+    height: 2.5rem;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 body {
     font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #141413;
     background: #fafaf8;
 }
 
@@ -29,7 +46,7 @@ header > span {
 }
 
 main {
-    margin-top: 4rem;
+    margin: 4.5rem 4rem 4.5rem;
 }
 
 main > form {
@@ -41,6 +58,7 @@ main > form {
 
 form > input {
     font: inherit;
+    font-size: 0.875rem;
     min-width: 25rem;
     height: 2.5rem;
     padding: 0.5rem 0.8rem;
@@ -51,16 +69,50 @@ form > input {
 
 form > button {
     width: 11.5rem;
-    height: 2.5rem;
-    padding: 0.5rem 1rem;
     background-color: #141413;
     color: #fafaf8;
-    font: inherit;
-    font-weight: 500;
-    border: none;
-    border-radius: 0.375rem;
 }
 
-ul {
-    margin-left: 4rem;
+section {
+    margin-top: 4rem;
+}
+
+section > h2 {
+    font-size: 1.875rem;
+    font-weight: 550;
+    color: #141413;
+    line-height: 2.375rem;
+}
+
+section > ul {
+    margin-top: 1.5rem;
+    color: #475467;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+.get-recipe-container {
+    background-color: #f0efeb;
+    padding: 1.75rem 2.5rem 1.75rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-recipe-container > button {
+    width: 7rem;
+    background-color: #d17557;
+    color: #fafaf8;
+}
+
+.get-recipe-container > div > h3 {
+    font: inherit;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.get-recipe-container > div > p {
+    font-size: 0.725rem;
+    color: #6b7280;
 }
