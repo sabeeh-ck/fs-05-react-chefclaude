@@ -22,6 +22,10 @@ button {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-size: 1.125rem;
@@ -91,7 +95,9 @@ section > ul {
     margin-bottom: 2rem;
 }
 
-.get-recipe-container {
+div.get-recipe-container {
+    width: 40rem;
+    margin: auto;
     background-color: #f0efeb;
     padding: 1.75rem 2.5rem 1.75rem;
     border-radius: 0.5rem;
@@ -100,19 +106,19 @@ section > ul {
     align-items: center;
 }
 
-.get-recipe-container > button {
+div.get-recipe-container > button {
     width: 7rem;
     background-color: #d17557;
     color: #fafaf8;
 }
 
-.get-recipe-container > div > h3 {
+div.get-recipe-container > div > h3 {
     font: inherit;
     font-weight: 500;
     line-height: 1.5rem;
 }
 
-.get-recipe-container > div > p {
+div.get-recipe-container > div > p {
     font-size: 0.725rem;
     color: #6b7280;
 }
